@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        
+        <bean id="p" class="com.model.Person">
+			<property name="pid" value="234"></property>
+			
+			<property name="pname" value="rohit" ></property>
+			
+				
+		   
+			
+			<property name="contact">
+				<list>
+					<value>9034567823</value>
+				</list>
+			</property>
+			
+			<property name="email">
+				<set>
+					<value>rohit@123gmail.com</value>
+				</set>
+			</property>
+			
+			<property name="address">
+				<map>
+					<entry key="234" value="karvenager"></entry>
+				</map>
+			</property>
+			
+		</bean>
+        
+        </beans>
